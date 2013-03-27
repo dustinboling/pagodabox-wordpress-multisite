@@ -1,7 +1,14 @@
 web1:
   name: wp-web
   shared_writable_dirs:
-  - wp-content/uploads
+    - wp-content/uploads
+    - wp-content/blogs.dir
+    - wp-content/upgrade
+    - wp-content/backup-db
+    - wp-content/cache
+    - wp-content/backups
+    - wp-content/sitemaps
+  php_version: 5.3.10
   php_date_timezone: "America/Los_Angeles"
   php_extensions:
     - mysql
