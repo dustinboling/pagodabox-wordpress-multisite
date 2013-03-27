@@ -2,18 +2,17 @@ web1:
   name: wp-web 
   shared_writable_dirs:
     - wp-content/uploads
-  php_version: 5.3.10
   php_date_timezone: "America/Los_Angeles"
   php_extensions:
     - mysql
     - gd
     - curl
     - mbstring
-  after_build:
-    - "mv pagoda/wp-config.php wp-config.php"
   php_upload_max_filesize: "20M"
   php_post_max_size: "20M"
   php_max_execution_time: 1200
+  after_build:
+    - "mv pagoda/wp-config.php wp-config.php"
 db1:
   name: wp-db
   type: mysql
