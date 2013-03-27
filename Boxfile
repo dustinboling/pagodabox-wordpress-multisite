@@ -1,7 +1,7 @@
-web1: 
-  name: wp-web 
+web1:
+  name: wp-web
   shared_writable_dirs:
-    - wp-content/uploads
+  - wp-content/uploads
   php_date_timezone: "America/Los_Angeles"
   php_extensions:
     - mysql
@@ -13,7 +13,7 @@ web1:
   php_max_execution_time: 1200
   after_build:
     - "mv pagoda/wp-config.php wp-config.php"
-	- "rmdir pagoda"
+    - "rmdir pagoda"
 db1:
   name: wp-db
   type: mysql
