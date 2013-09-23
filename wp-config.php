@@ -16,16 +16,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', $_SERVER["DB1_NAME"]);
+define('DB_NAME', 'pagodabox-wordpress-network');
 
 /** MySQL database username */
-define('DB_USER', $_SERVER["DB1_USER"]);
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', $_SERVER["DB1_PASS"]);
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
-define('DB_HOST', $_SERVER["DB1_HOST"]);
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
