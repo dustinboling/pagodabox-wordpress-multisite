@@ -88,7 +88,7 @@ define( 'WP_ALLOW_MULTISITE', true );
 /**
  * Domain Mapping
  */
-
+define( 'SUNRISE', 'on' );
 
 /* That's all, stop editing! Happy blogging. */
 
