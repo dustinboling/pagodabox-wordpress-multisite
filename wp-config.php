@@ -16,7 +16,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'pagodabox-wordpress-network');
+define('DB_NAME', 'pagodabox-wordpress-multisite');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -84,6 +84,11 @@ define('WP_DEBUG', false);
  * WordPress Multisite (Network Mode)
  */
 define( 'WP_ALLOW_MULTISITE', true );
+
+/**
+ * Domain Mapping
+ */
+define( 'SUNRISE', 'on' );
 
 /* That's all, stop editing! Happy blogging. */
 

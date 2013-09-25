@@ -85,6 +85,11 @@ define('WP_DEBUG', false);
  */
 define( 'WP_ALLOW_MULTISITE', true );
 
+/**
+ * Domain Mapping
+ */
+
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
